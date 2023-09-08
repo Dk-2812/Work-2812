@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th,td{
+            border: 1px solid black;
+            background-color: rgb(148, 243, 243);
+            border-radius: 50px;
+        }
+        table{
+            background-color: rgb(148, 243, 243);
+            width: 600px;
+            table-layout: fixed;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        div{
+            margin: 3px;
+            border: 3px solid greenyellow;
+            width: 80px;
+            height: 50px;
+            position: relative;
+            top: 50px;
+            left: 160px;
+        }
+        .shapes{
+            width: 80px;
+            display: inline-block;
+        }
+        #one{
+            border-radius: 5px;
+        }
+        #two,#four{
+            border-radius: 7px;
+        }
+        #three,#six{
+            border-radius: 15px;
+        }
+        #five,#eight{
+            border-radius: 3px;
+        }
+        #seven{
+            border-radius: 50%;
+        }
+        #nine{
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jil</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <div class="shapes" id="one"></div>
+    <div class="shapes" id="two"></div>
+    <div class="shapes" id="three"></div></br>
+    <div class="shapes" id="four"></div>
+    <div class="shapes" id="five"></div>
+    <div class="shapes" id="six"></div></br>
+    <div class="shapes" id="seven"></div>
+    <div class="shapes" id="eight"></div>
+    <div class="shapes" id="nine"></div>
+</body>
+</html>
